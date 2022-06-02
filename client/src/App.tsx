@@ -3,14 +3,14 @@ import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
 import { Card } from  './components';
-
-import { Home } from './pages';
+import { Home, WhoWeAre } from './pages';
 
 function App() {
+
+  
   return (
     <ThemeProvider theme={theme}>
-      <Home/>
-      <Card/>
+      <WhoWeAre/>
       <GlobalStyle/>
     </ThemeProvider>
   );
