@@ -1,41 +1,54 @@
 import styled from 'styled-components';
 
-export const CardContainer = styled.div`
-    margin: auto;
-    Width: 851px;
-    Height: 300px;
 
-    background-color: #fff;
+
+export const CardContainer = styled.div`
+    position: relative;
+    margin: auto;   
+    height: 350px;
+    width: 458px;
 
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 
-    border-radius: 40px;
-    padding: 62px 78px 75px 63px;
-    gap: 58px;
-
-    box-shadow: 2px 2px 2px 1px rgba(0, 250, 250, 0.2);
-`;
-
-export const CardImage = styled.div`
-    Width: 450px;
-    Height: 150px;
-
-    border-radius: 100%;
     background-color: red;
 `;
 
+export const CardImage = styled.div`
+    background-color: blue;
+    height: 350px;
+    width: 458px;
+
+    img{
+        height: 350px;
+        width: 458px;
+        object-fit: cover;
+    }
+`;
+
 export const ContainerText = styled.div`
-    Height: 9.375rem;
-    
+    position: absolute;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;  
+    justify-content: space-between;
+    padding: 0 34px 35px 32px
+
+
 `;
 
 export const CardNome = styled.div`
-    align-self: flex-start;
+    Width:196px
+    Height:30px
+
 `;
-export const CardDescription = styled.div`
-    text-align: left;
+export const CardInstagram = styled.div`
+    Width: 21.67px;
+    Height: 21.67px;
+
+    img{
+        Width: 21.67px;
+        Height:21.67px;
+        object-fit: contain;
+        cursor: pointer;
+    }
 `;

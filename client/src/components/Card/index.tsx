@@ -1,19 +1,24 @@
 import React from "react";
-import {CardContainer, CardDescription, CardImage, CardNome, ContainerText } from './style'
+import {CardContainer, CardInstagram, CardImage, CardNome, ContainerText} from './style'
+import { IconInstagram } from "../../assets";
 
 type CardProps = {
     foto: string
     nomeParticipante: string
-    descricaoParticipante: string
+    instagramParticipante: string
 }
-
-export const Card: React.ElementType = () => {
+// src nao funcionada em CardImage <img src={LogoCITi}/>
+export const Card: React.ElementType = ({foto,nomeParticipante,instagramParticipante}:CardProps) => {
     return(
         <CardContainer>
-            <CardImage/>
+            <CardImage><img src={foto}/></CardImage>
             <ContainerText>
-                <CardNome>Nome do Participante</CardNome>
-                <CardDescription>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem.</CardDescription>
+                <CardNome>{nomeParticipante}</CardNome>
+                <CardInstagram>
+                    <a href={instagramParticipante} target="_blank">
+                        <img src={IconInstagram}/>
+                    </a>
+                </CardInstagram>
             </ContainerText>
         </CardContainer>
     );
