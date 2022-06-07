@@ -5,15 +5,15 @@ import { Citi, Crud } from '../global'
 export default class CardController implements Crud{
     
     async create(request: Request, response: Response){
-        const {foto, nomeParticipante, descricaoParticipante} = request.body;
+        const {foto, nomeParticipante, instagramParticipante} = request.body;
 
-        const isAnyUndefined = Citi.areValuesUndefined(foto, nomeParticipante, descricaoParticipante);
+        const isAnyUndefined = Citi.areValuesUndefined(foto, nomeParticipante, instagramParticipante);
 
         if(isAnyUndefined){
             return response.status(400).send();
         }
 
-        const newCard = {foto,nomeParticipante,descricaoParticipante};
+        const newCard = {foto,nomeParticipante, instagramParticipante};
         const {httpStatus, message} = await Citi.insertIntoDatabase(Card, newCard);
 
         return response.status(httpStatus).send({message});
@@ -26,12 +26,12 @@ export default class CardController implements Crud{
 
     async update(request: Request, response: Response){
         const { id } = request.params;
-        const { foto, nomeParticipante, descricaoParticipante } = request.body;
+        const { foto, nomeParticipante, instagramParticipante } = request.body;
          
-        const isAnyUndefined = Citi.areValuesUndefined(foto, nomeParticipante, descricaoParticipante, id);
+        const isAnyUndefined = Citi.areValuesUndefined(foto, nomeParticipante, instagramParticipante, id);
         if(isAnyUndefined) return response.status(400).send();
 
-        const CardWithUpdatedValues = { foto, nomeParticipante, descricaoParticipante };
+        const CardWithUpdatedValues = { foto, nomeParticipante, instagramParticipante };
 
         const { httpStatus, messageFromUpdate } = await Citi.updateValue(Card, id, CardWithUpdatedValues);
 

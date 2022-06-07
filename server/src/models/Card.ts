@@ -12,5 +12,5 @@ export class Card {
     nomeParticipante: string
 
     @Column()
-    descricaoParticipante: string
+    instagramParticipante: string
 }

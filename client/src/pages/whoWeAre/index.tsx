@@ -61,7 +61,7 @@ export const WhoWeAre: React.ElementType = () => {
     const [descricaoIntegrante, setdescricaoIntegrante] = useState<string>();
     // const [card, setCard] = useState();
     
-    //busca os integrantes no banco de dados
+    //busca os integrantes no data
     async function getIntegrantes() {    
         
         try {
