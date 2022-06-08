@@ -58,7 +58,7 @@ export const WhoWeAre: React.ElementType = () => {
 
     const [fotoIntegrante, setfotoIntegrante] = useState<string>();
     const [nomeIntegrante, setnomeIntegrantee] = useState<string>();
-    const [descricaoIntegrante, setdescricaoIntegrante] = useState<string>();
+    const [instagramIntegrante, setinstagramIntegrante] = useState<string>();
     // const [card, setCard] = useState();
     
     //busca os integrantes no data
@@ -66,11 +66,11 @@ export const WhoWeAre: React.ElementType = () => {
         
         try {
             const response = await api.get(`card/`);
-            const { foto, nomeParticipante, descricaoParticipante } = response.data;
+            const { foto, nomeParticipante, instagramParticipante } = response.data;
     
             setfotoIntegrante(foto)
             setnomeIntegrantee(nomeParticipante)
-            setdescricaoIntegrante(descricaoParticipante)
+            setinstagramIntegrante(instagramParticipante)
 
         } catch(err){
             console.log(err)
