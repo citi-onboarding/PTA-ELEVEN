@@ -1,5 +1,5 @@
 import React from "react";
-import { ContainerFooter, FooterImage, FooterSectionLeft, FooterSectionRight, ContainerText } from './styles';
+import { ContainerFooter, FooterImage, FooterSectionLeft, FotterRedes, FooterSectionRight, ContainerText } from './styles';
 import { FooterBackground, LogoCitiBW, FooterEleven, FooterInstagram, FooterTiktok, FooterYoutube } from '../../assets';
 
 export const Footer: React.FC = () => {
@@ -14,10 +14,11 @@ export const Footer: React.FC = () => {
                     <p>K-Pop Dance Group <br/> from Recife, Brazil</p>
                 </FooterSectionLeft>
                 <FooterSectionRight>
-                    <a href=""><img src={FooterInstagram}/></a>
-                    <a href=""><img src={FooterTiktok}/></a>
-                    <a href=""><img src={FooterYoutube}/></a> 
-                    <br/>
+                    <FotterRedes>
+                        <a href="https://www.instagram.com/elevendancegroup/" target='_blank'><img src={FooterInstagram}/></a>
+                        <a href="https://www.tiktok.com/@elevendancegroup" target='_blank'><img src={FooterTiktok}/></a>
+                        <a href="https://www.youtube.com/c/ElevenDanceGroup" target='_blank'><img src={FooterYoutube}/></a>
+                    </FotterRedes> 
                     <p>
                         Made with
                         {' '}

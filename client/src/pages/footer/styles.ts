@@ -24,7 +24,7 @@ export const ContainerText = styled.div`
     align-items: center;
     justify-content: space-between;
     
-    padding: 0 309px 0 242px;
+    padding: 0 150px 0 90px;
 `;
 
 
@@ -43,12 +43,20 @@ export const FooterSectionLeft = styled.div`
     
 `;
 
+
 export const FooterSectionRight = styled.div`
     text-align: right;
     line-height: 2;
 
-    a{
-        margin: 0 0 0 37px;
-    }
+`;
 
+export const FotterRedes = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 37px;
+
+    img{
+        width: 80%;
+    }
 `;
