@@ -2,12 +2,21 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
-import { Footer, Home } from './pages';
+
+import { Card } from  './components';
+import { Footer, Home, OurPerformances, WhoWeAre, } from './pages';
+
 
 function App() {
+
+  
   return (
     <ThemeProvider theme={theme}>
-      <Footer/>      
+
+      <Footer/>
+      <WhoWeAre/>
+      <OurPerformances/>  
+
       <GlobalStyle/>
     </ThemeProvider>
   );
