@@ -9,7 +9,7 @@ export const OurPerformances: React.ElementType = () => {
             <ContainerComponent>
                 <BackgroundImage><img src={PerformancesBackground}/></BackgroundImage>
                 <ContainerText>
-                    <a  type="hover" href='https://css-tricks.com/snippets/css/a-guide-to-flexbox/' target='_blank'>
+                    <a  type="hover" href='https://www.youtube.com/c/ElevenDanceGroup/videos' target='_blank'>
                         <L1>
                             Veja nossas
                             <Arrows>

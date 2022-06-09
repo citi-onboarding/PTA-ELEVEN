@@ -24,7 +24,7 @@ export const Titulo = styled.div`
 `;
 
 export const Paragrafo = styled.div`
-    margin: 8px 209px 10px 570px;
+    margin: 8px 209px 10px 470px;
     text-align: right;
     
     font-family: 'Azo Sans';
