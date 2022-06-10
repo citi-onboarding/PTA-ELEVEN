@@ -1,4 +1,22 @@
 import LogoCITi from './logo.png';
+import BannerBackground from './Banner.png'
+import Momentos1 from './Momentos-1.png'
+import Momentos2 from './Momentos-2.png'
+import Momentos3 from './Momentos-3.png'
+import Momentos4 from './Momentos-4.png'
+import Momentos5 from './Momentos-5.png'
+import Momentos6 from './Momentos-6.png'
+
+export {
+    
+    BannerBackground,
+    Momentos1,
+    Momentos2,
+    Momentos3,
+    Momentos4,
+    Momentos5,
+    Momentos6
+};
 
 import FooterBackground from './footerBackground.png'
 import FooterInstagram from './footerInstagram.png'
