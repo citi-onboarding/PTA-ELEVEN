@@ -14,7 +14,6 @@ export const Children = styled.div`
 export const Titulo = styled.div`
     margin-right: 209px;
 
-    font-family: Azo Sans;
     font-size: 55px;
     font-weight: 900;
     line-height: 66px;
@@ -24,10 +23,9 @@ export const Titulo = styled.div`
 `;
 
 export const Paragrafo = styled.div`
-    margin: 8px 209px 10px 470px;
+    margin: 8px 209px 10px 400px;
     text-align: right;
     
-    font-family: 'Azo Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;

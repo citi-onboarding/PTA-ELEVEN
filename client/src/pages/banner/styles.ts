@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-export const BannerContainer = styled.div`
-
+export const BannerContainer = styled.div`  
+    margin-bottom: 2rem;
     .outer {
         display: grid;
         grid-template: 1fr / 1fr;

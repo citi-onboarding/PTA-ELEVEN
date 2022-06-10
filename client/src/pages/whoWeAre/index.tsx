@@ -87,7 +87,7 @@ export const WhoWeAre: React.ElementType = () => {
     return(
         <>
             <>
-                <Titulo> Quem Somos? </Titulo>
+                <Titulo id='quemsomos'> Quem Somos? </Titulo>
                 <Paragrafo> 
                 Somos um grupo de dança de Recife, Brasil. Nós fazemos covers de coreografias de K-Pop desde 2018. Amamos a ideia de espalhar a cultura K-Pop para o mundo através da dança. Esperamos que vocês se divirtam conosco!
                 </Paragrafo>
@@ -100,29 +100,29 @@ export const WhoWeAre: React.ElementType = () => {
                             nomeParticipante="Akito"
                             instagramParticipante="https://www.instagram.com/justakito"/>
 
-                            <Card foto={Aline}
+                            {/* <Card foto={Aline}
                             nomeParticipante="Aline" 
-                            instagramParticipante="https://www.instagram.com/lhinemtg"/>
+                            instagramParticipante="https://www.instagram.com/lhinemtg"/> */}
                             
                             <Card foto={Beca}
                             nomeParticipante="beca" 
                             instagramParticipante="https://www.instagram.com/rebsoos"/>
 
-                            <Card foto={Bruno}
+                            {/* <Card foto={Bruno}
                             nomeParticipante="Bruno" 
-                            instagramParticipante="https://www.instagram.com/el_brunomunoz/"/>
+                            instagramParticipante="https://www.instagram.com/el_brunomunoz/"/> */}
                             
                             <Card foto={Cilas}
                             nomeParticipante="Cilas" 
                             instagramParticipante="https://www.instagram.com/cilayanglee"/>
 
-                            <Card foto={Derek}
+                            {/* <Card foto={Derek}
                             nomeParticipante="Derek" 
-                            instagramParticipante="https://www.instagram.com/derekai"/>
+                            instagramParticipante="https://www.instagram.com/derekai"/> */}
                             
-                            <Card foto={Diogo}
+                            {/* <Card foto={Diogo}
                             nomeParticipante="Diogo" 
-                            instagramParticipante="https://www.instagram.com/diogo.fsm"/>
+                            instagramParticipante="https://www.instagram.com/diogo.fsm"/> */}
 
                             <Card foto={Gustavo}
                             nomeParticipante="Gustavo" 
@@ -156,9 +156,9 @@ export const WhoWeAre: React.ElementType = () => {
                             nomeParticipante="Mari" 
                             instagramParticipante="https://www.instagram.com/mari.boomi/"/>
 
-                            <Card foto={Sofia}
+                            {/* <Card foto={Sofia}
                             nomeParticipante="Sofia" 
-                            instagramParticipante="https://www.instagram.com/sofia.mdl/"/>
+                            instagramParticipante="https://www.instagram.com/sofia.mdl/"/> */}
                         </Slider>
                     </Children>
                 </Parent>

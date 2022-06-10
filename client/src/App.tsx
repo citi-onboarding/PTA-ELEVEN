@@ -4,7 +4,7 @@ import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
 
 import { Card } from  './components';
-import { Footer, Home, OurPerformances, WhoWeAre, } from './pages';
+import { Banner, Footer, Home, Momentos, Navbar, OurPerformances, WhoWeAre, } from './pages';
 
 
 function App() {
@@ -12,10 +12,12 @@ function App() {
   
   return (
     <ThemeProvider theme={theme}>
-
-      <Footer/>
+      
+      <Banner/>
       <WhoWeAre/>
-      <OurPerformances/>  
+      <OurPerformances/>
+      <Momentos/>
+      <Footer/>
 
       <GlobalStyle/>
     </ThemeProvider>

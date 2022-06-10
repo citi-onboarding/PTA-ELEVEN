@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-
-
 export const CardContainer = styled.div`
     position: relative;
     margin: auto;   
@@ -40,6 +38,8 @@ export const CardNome = styled.div`
     Width:196px
     Height:30px
 
+    font-weight: bold;
+    font-weight: 900;
 `;
 export const CardInstagram = styled.div`
     Width: 21.67px;

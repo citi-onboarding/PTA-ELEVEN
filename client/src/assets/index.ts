@@ -7,17 +7,6 @@ import Momentos4 from './Momentos-4.png'
 import Momentos5 from './Momentos-5.png'
 import Momentos6 from './Momentos-6.png'
 
-export {
-    
-    BannerBackground,
-    Momentos1,
-    Momentos2,
-    Momentos3,
-    Momentos4,
-    Momentos5,
-    Momentos6
-};
-
 import FooterBackground from './footerBackground.png'
 import FooterInstagram from './footerInstagram.png'
 import FooterTiktok from './footerTiktok.png'
@@ -29,6 +18,7 @@ import ArrowLeft from './arrowLeft.png'
 import IconInstagram from './iconInstagram.png'
 import PerformancesArrow from './performancesArrow.png'
 import PerformancesBackground from './performancesBackground.png'
+
 // Integrantes
 import Akito from './AKITO.jpg'
 import Aline from './ALINE.jpg'
@@ -46,15 +36,17 @@ import Lucky from './LUCKY.jpg'
 import Manu from './MANU.jpg'
 import Mari from './MARI.jpg'
 import Sofia from './SOFIA.jpg'
-
 export {
-    LogoCITi,
-    FooterBackground,
-    FooterInstagram,
-    FooterTiktok,
-    FooterYoutube,
-    FooterEleven,
-    LogoCitiBW
+    
+    BannerBackground,
+    Momentos1,
+    Momentos2,
+    Momentos3,
+    Momentos4,
+    Momentos5,
+    Momentos6
+};
+
 
 export {
     LogoCITi,
@@ -80,7 +72,12 @@ export {
     Lucky,
     Manu,
     Mari,
-    Sofia
+    Sofia,
 
-
+    FooterBackground,    
+    FooterInstagram,
+    FooterTiktok,
+    FooterYoutube,
+    FooterEleven,
+    LogoCitiBW
 };

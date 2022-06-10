@@ -10,7 +10,7 @@ import { Momentos6 } from '../../assets';
 
 export const Momentos: React.FC = () => {
     return (
-        <MomentosContainer>
+        <MomentosContainer id='momentos'>
             <div className="outerbox">
                 <div className="innerbox">
                     <p id="sectionTitle">Momentos</p>

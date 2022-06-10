@@ -6,7 +6,7 @@ import { PerformancesArrow, PerformancesBackground } from "../../assets";
 export const OurPerformances: React.ElementType = () => {
     return(
         <>
-            <ContainerComponent>
+            <ContainerComponent id='performances'>
                 <BackgroundImage><img src={PerformancesBackground}/></BackgroundImage>
                 <ContainerText>
                     <a  type="hover" href='https://www.youtube.com/c/ElevenDanceGroup/videos' target='_blank'>

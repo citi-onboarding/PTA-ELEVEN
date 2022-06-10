@@ -82,6 +82,8 @@ export const MomentosContainer = styled.div`
     }
 
     #sectionTitle {
+        font-weight: bold;
+        font-weight: 900;
         color: #000000;
     }
     

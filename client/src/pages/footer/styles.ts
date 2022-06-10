@@ -5,8 +5,6 @@ export const ContainerFooter = styled.div`
     margin-top: 2rem;
 
     position: absolute;
-    bottom: 0;
-
     display: flex;
     align-items: center;
 `;
@@ -34,7 +32,6 @@ export const FooterSectionLeft = styled.div`
     gap: 48px;
     line-height: 1.6;
 
-    font-family: Azo Sans;
     font-size: 20px;
     font-weight: 400;
     line-height: 36px;

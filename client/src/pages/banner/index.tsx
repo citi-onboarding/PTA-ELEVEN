@@ -5,7 +5,7 @@ import { BannerBackground } from '../../assets'
 
 export const Banner: React.FC = () => {
     return (
-        <BannerContainer>
+        <BannerContainer id='navbar'>
             <div className="outer">
                 <div className="top">
                     <Navbar/>
